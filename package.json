@@ -1,0 +1,32 @@
+{
+  "name": "typescript-react-parcel-base",
+  "version": "1.0.0",
+  "description": "Starter for React project in TS using Parcel",
+  "main": "index.js",
+  "author": "Sajeev Nair",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^16.9.41",
+    "@types/react-dom": "^16.9.8",
+    "@typescript-eslint/eslint-plugin": "^3.5.0",
+    "@typescript-eslint/parser": "^3.5.0",
+    "eslint": "^7.4.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.20.3",
+    "eslint-plugin-standard": "^4.0.1",
+    "parcel-bundler": "^1.12.4",
+    "prettier": "^2.0.5",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "typescript": "^3.9.6"
+  },
+  "scripts": {
+    "start": "parcel src/index.html --out-dir build/debug --open",
+    "build": "parcel src/index.html --out-dir build/release --public-url ./"
+  }
+}
