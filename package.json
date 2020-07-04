@@ -27,6 +27,6 @@
   },
   "scripts": {
     "start": "parcel src/index.html --out-dir build/debug --open",
-    "build": "parcel src/index.html --out-dir build/release --public-url ./"
+    "build": "parcel build src/index.html --out-dir build/release --public-url ./"
   }
 }
